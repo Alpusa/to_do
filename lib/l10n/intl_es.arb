@@ -1,0 +1,9 @@
+{
+  "app_name": "To Do",
+  "add_task": "Añadir tarea",
+  "delete_task": "Eliminar tarea",
+  "no_tasks": "No hay tareas disponibles",
+  "pending": "Pendiente",
+  "completed": "Completado",
+  "field_required": "Este campo es obligatorio"
+}
