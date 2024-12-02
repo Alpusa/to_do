@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// Esquemas de colores para Light Theme
+/// Color schemes for Light Theme
 class LightSchemes {
-  /// Esquema de colores para Light Theme (Contraste Bajo)
+  /// Color scheme for Light Theme (Low Contrast)
   static ColorScheme lightScheme() {
     return const ColorScheme(
       brightness: Brightness.light,
@@ -54,7 +54,7 @@ class LightSchemes {
     );
   }
 
-  /// Esquema de colores para Light Theme (Contraste Medio)
+  /// Color scheme for Light Theme (Medium Contrast)
   static ColorScheme lightMediumContrastScheme() {
     return const ColorScheme(
       brightness: Brightness.light,
@@ -106,7 +106,7 @@ class LightSchemes {
     );
   }
 
-  /// Esquema de colores para Light Theme (Contraste Alto)
+  /// Color scheme for Light Theme (High Contrast)
   static ColorScheme lightHighContrastScheme() {
     return const ColorScheme(
       brightness: Brightness.light,

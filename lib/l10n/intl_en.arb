@@ -1,9 +1,11 @@
 {
   "app_name": "To Do",
   "add_task": "Add Task",
+  "add_new_task": "Add a new Task",
   "delete_task": "Delete Task",
   "no_tasks": "No tasks available",
   "pending": "Pending",
   "completed": "Completed",
-  "field_required": "This field is required"
+  "field_required": "This field is required",
+  "task_filter": "Task filter"
 }

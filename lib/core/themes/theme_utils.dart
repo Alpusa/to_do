@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-/// Utilidades para temas
+/// Theme utilities
 class ThemeUtils {
-  /// Método común para crear ThemeData a partir de un ColorScheme
+  /// Common method to create ThemeData from a ColorScheme
   static ThemeData theme(
     ColorScheme scheme,
   ) {

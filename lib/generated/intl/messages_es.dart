@@ -22,6 +22,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "add_new_task":
+            MessageLookupByLibrary.simpleMessage("Añadir una nueva tarea"),
         "add_task": MessageLookupByLibrary.simpleMessage("Añadir tarea"),
         "app_name": MessageLookupByLibrary.simpleMessage("To Do"),
         "completed": MessageLookupByLibrary.simpleMessage("Completado"),
@@ -30,6 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Este campo es obligatorio"),
         "no_tasks":
             MessageLookupByLibrary.simpleMessage("No hay tareas disponibles"),
-        "pending": MessageLookupByLibrary.simpleMessage("Pendiente")
+        "pending": MessageLookupByLibrary.simpleMessage("Pendiente"),
+        "task_filter": MessageLookupByLibrary.simpleMessage("Filtro de tareas")
       };
 }

@@ -70,6 +70,16 @@ class S {
     );
   }
 
+  /// `Add a new Task`
+  String get add_new_task {
+    return Intl.message(
+      'Add a new Task',
+      name: 'add_new_task',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Delete Task`
   String get delete_task {
     return Intl.message(
@@ -115,6 +125,16 @@ class S {
     return Intl.message(
       'This field is required',
       name: 'field_required',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Task filter`
+  String get task_filter {
+    return Intl.message(
+      'Task filter',
+      name: 'task_filter',
       desc: '',
       args: [],
     );

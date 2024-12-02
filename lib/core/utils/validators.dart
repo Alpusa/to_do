@@ -1,7 +1,8 @@
-import 'package:intl/intl.dart'; // Para usar Intl
+import 'package:intl/intl.dart';
 
+/// this file is for the common validations in the application
 class Validators {
-  // Validado para campos requeridos
+  // Validated for required fields
   static String? requiredField(String? value) {
     if (value == null || value.trim().isEmpty) {
       return Intl.message("field_required");

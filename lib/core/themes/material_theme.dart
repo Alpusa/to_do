@@ -3,36 +3,36 @@ import 'light_schemes.dart';
 import 'dark_schemes.dart';
 import 'theme_utils.dart';
 
-/// Clase para manejar temas personalizados
+/// Class for manage custom themes
 class MaterialTheme {
   const MaterialTheme();
 
-  /// Tema para Light Scheme
+  /// Theme for Light Scheme
   ThemeData light() {
     return ThemeUtils.theme(LightSchemes.lightScheme());
   }
 
-  /// Tema para Light Medium Contrast Scheme
+  /// Theme for Light Medium Contrast Scheme
   ThemeData lightMediumContrast() {
     return ThemeUtils.theme(LightSchemes.lightMediumContrastScheme());
   }
 
-  /// Tema para Light High Contrast Scheme
+  /// Theme for Light High Contrast Scheme
   ThemeData lightHighContrast() {
     return ThemeUtils.theme(LightSchemes.lightHighContrastScheme());
   }
 
-  /// Tema para Dark Scheme
+  /// Theme for Dark Scheme
   ThemeData dark() {
     return ThemeUtils.theme(DarkSchemes.darkScheme());
   }
 
-  /// Tema para Dark Medium Contrast Scheme
+  /// Theme for Medium dark contrast scheme
   ThemeData darkMediumContrast() {
     return ThemeUtils.theme(DarkSchemes.darkMediumContrastScheme());
   }
 
-  /// Tema para Dark High Contrast Scheme
+  /// Theme for Dark High Contrast Scheme
   ThemeData darkHighContrast() {
     return ThemeUtils.theme(DarkSchemes.darkHighContrastScheme());
   }
