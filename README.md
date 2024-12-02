@@ -58,10 +58,11 @@ To remove a task, click the trash can button that appears next to each task.
 Below are some screenshots of how the app looks and functions:
 
 ### Home Screen - Task List
-![Home Screen](https://github.com/Alpusa/to_do/blob/main/images/noCompleted.jpg)
+<img src="https://github.com/Alpusa/to_do/blob/main/images/noCompleted.jpg" width="300">
 
 ### Task Completed
-![Task Completed](https://github.com/Alpusa/to_do/blob/main/images/Completed.jpg)
+<img src="https://github.com/Alpusa/to_do/blob/main/images/Completed.jpg" width="300">
+
 
 ## File Structure
 The project is structured as follows:
