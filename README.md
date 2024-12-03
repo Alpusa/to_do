@@ -117,8 +117,7 @@ lib/
 │   │   └── task_item.dart
 ├── injection_container.dart
 ├── main.dart
-
-
+```
 
 ## Contributing
 
