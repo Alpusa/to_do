@@ -121,7 +121,7 @@ lib/
 
 ## Contributing
 
-Feel free to fork this repository and submit pull requests. If you encounter any issues or have suggestions, please open an issue in the [Issues section](https://github.com/your-username/to_do/issues).
+Feel free to fork this repository and submit pull requests. If you encounter any issues or have suggestions, please open an issue in the [Issues section](https://github.com/Alpusa/to_do/issues).
 
 ## License
 
